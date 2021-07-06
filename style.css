@@ -141,6 +141,7 @@ ul li {
   display: block;
   align-items: center;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .Card {
@@ -149,5 +150,56 @@ ul li {
   padding: 5px 20px;
   margin: 20px;
   width: 17%;
-  height: 350px;
+  height: 400px;
+}
+
+.firstCard-text {
+  margin-top: 5px;
+  letter-spacing: 3px;
+}
+
+#fourth-section {
+  display: flex;
+  margin-top: 50px;
+  width: 80%;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+  background-image: url(images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourthSection-content {
+  width: 40%;
+  padding: 100px 25px;
+}
+
+.fourthSection-content h2 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.first-btn {
+  text-decoration: none;
+  background-color: rebeccapurple;
+  color: wheat;
+  border-radius: 25px;
+  padding: 12px 20px;
+  margin-right: 10px;
+}
+
+.second-btn {
+  text-decoration: none;
+  background-color: red;
+  color: wheat;
+  border-radius: 25px;
+  padding: 12px 20px;
+}
+
+.fourthSection-img {
+  width: 40%;
+  display: block;
+  align-items: center;
+  margin-bottom: -9px;
+  margin-top: 25px;
 }
