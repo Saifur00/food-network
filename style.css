@@ -33,12 +33,12 @@ ul li {
   cursor: pointer;
 }
 
-.sign-up {
+.btn-class {
   text-decoration: none;
-  background-color: orange;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
   color: #ffffff;
-  padding: 5px 10px;
-  border-radius: 20px;
+  padding: 15px 18px;
+  border-radius: 50px;
   align-items: center;
 }
 
@@ -83,7 +83,7 @@ ul li {
 }
 
 .content-part-2 {
-  width: 50%;
+  width: 60%;
   padding-top: 120px;
   padding-right: 250px;
 }
@@ -100,7 +100,8 @@ ul li {
 
 .contactMe-btn {
   text-decoration: none;
-  background-color: orange;
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
   color: #ffffff;
   padding: 25px 50px;
   border-radius: 50px;
@@ -182,7 +183,7 @@ ul li {
 .first-btn {
   text-decoration: none;
   background-color: rebeccapurple;
-  color: wheat;
+  color: white;
   border-radius: 25px;
   padding: 12px 20px;
   margin-right: 10px;
@@ -191,7 +192,7 @@ ul li {
 .second-btn {
   text-decoration: none;
   background-color: red;
-  color: wheat;
+  color: white;
   border-radius: 25px;
   padding: 12px 20px;
 }
@@ -202,4 +203,22 @@ ul li {
   align-items: center;
   margin-bottom: -9px;
   margin-top: 25px;
+}
+
+#footer {
+  background-color: #0b0e17;
+  height: 250px;
+  margin-top: 90px;
+  text-align: center;
+}
+
+#footer h3 {
+  font-size: 35px;
+  padding: 15px 0;
+  color: white;
+}
+
+#footer p {
+  color: white;
+  letter-spacing: 5px;
 }
